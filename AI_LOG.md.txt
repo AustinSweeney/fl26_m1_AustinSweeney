@@ -1,0 +1,12 @@
+Austin Sweeney
+9065-02586
+
+Tool used: ChatGPT
+Scope: Assistance in writing function. Gave entire part of code. I used the AI agent to help write the std::sort located at the end of the the retrieval engine. After I asked the AI agent to help me write the code I looked it over and had it explain the code it provided.
+
+Component: Retrieval_engine.cpp
+The AI wrote the sort function at the end of the retrieval engine. I was unsure of how to order the retrieval engine in my implementation so I asked for assistance and it gave me the section of code that was used.
+
+As far as I'm aware, the code worked as intended and had my code work.
+
+I affirm that I have thoroughly reviewed all AI-assisted code listed above, that I fully understand how it operates within the broader application architecture, and that I am able to modify or debug it independently.
