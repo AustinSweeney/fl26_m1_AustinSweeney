@@ -42,7 +42,7 @@ std::vector<Chunk> Chunker::chunk(const Document& document, std::size_t document
 
             std::size_t preferred_end = end;
 
-            for (std::size_t i = window_start; i < end; ++i)
+            for (std::size_t i = window_start; i <= end; ++i)
             {
                 if (i > start && i < tokens.size() && tokens[i].paragraph != tokens[i - 1].paragraph)
                 {

@@ -127,12 +127,14 @@ std::vector<ContextItem> ProcessingCore::build_context(const std::string& query,
                                                        int k,
                                                        std::size_t token_budget) const {
     // TODO: build bounded context for the requested query.
+
+    std::vector<SearchResult> ranked = search(query, k);
     if (token_budget == 0)
     {
         return {};
     }
 
-    std::vector<SearchResult> ranked = search(query, k);
+    
 
     return impl_->context_builder.build(ranked, token_budget);
 

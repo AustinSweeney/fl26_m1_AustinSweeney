@@ -128,7 +128,7 @@ std::vector<SearchResult> RetrievalEngine::search(const std::string& query,
 
             return a_index < b_index;
         });
-
+    //end of AI assistance
     if (results.size() > static_cast<std::size_t>(k))
     {
         results.resize(static_cast<std::size_t>(k));
